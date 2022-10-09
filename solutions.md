@@ -7,6 +7,7 @@ document.querySelector('.side-bar .crayons-card .color-base-70').innerHTML = 'I 
 const titleArray =[]
 const titles = document.
 querySelectorAll('.as-imagegrid-item .as-imagegrid-item-title')
+
 titles.forEach((title)=>{
 titleArray.push(title.firstChild.textContent)})
 console.log(titleArray)
@@ -15,10 +16,13 @@ console.log(titleArray)
 
 const itemsNodeList = document.querySelector('.article .accordion-homepage')
 const newElement = document.createElement("section");
+
 newElement.classList.add("parent")
 const h3=document.createElement("h3")
 h3.innerText = 'My New FAQ'
+
 itemsNodeList.appendChild(newElement)
+
 newElement.appendChild(h3)
 
 # Fourth Solution
@@ -31,7 +35,7 @@ document.querySelector(".diwali-deals-product-sale-pro .diwali-deals-product-sal
 
 # Sixth Solution
 
-const searchBox= document.querySelector('.inner**_3Nvdx .right-side-menu_**2ykzq .glass-search**_X4QNv .searchinput-wrapper_**3YrvF .searchinput\_\_\_19uW0')
+const searchBox= document.querySelector('.inner___3Nvdx .right-side-menu___2ykzq .glass-search___X4QNv .searchinput-wrapper___3YrvF .searchinput___19uW0')
 searchBox.addEventListener("mouseover", ()=> searchBox.style.backgroundColor= 'Red')
 
 # Seventh Solution
@@ -76,10 +80,11 @@ document.querySelector('.fl-col-content .fl-node-5d7c1d1ca1fdd .fl-module-conten
 
 # Fourteenth Solution
 
-document.querySelector('.HotDealsAll**HotCampaignsEventsContainer**FK0V2 .HotDealsAll**Heading**2fIbe').style.fontSize='80px'
+document.querySelector('.HotDealsAll__Heading__2fIbe').style.fontSize='80px'
 
 # Fifteenth Solution
-
+let titleArray = document.querySelectorAll("section.ps-top h3.ps-title")
+titleArray[4].style.textAlign="right"
 # Sixteenth Solution
 
 document.querySelector('.geist-wrapper .jsx-499702677 h4').innerText='Start with Scratch'
